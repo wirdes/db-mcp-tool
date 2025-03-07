@@ -1,5 +1,7 @@
 # Database Explorer MCP Tool
 
+[![smithery badge](https://smithery.ai/badge/@wirdes/db-mcp-tool)](https://smithery.ai/server/@wirdes/db-mcp-tool)
+
 A powerful Model Context Protocol (MCP) tool for exploring and managing different types of databases including PostgreSQL, MySQL, and Firestore.
 
 ## Features
