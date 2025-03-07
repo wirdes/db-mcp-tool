@@ -1,0 +1,35 @@
+{
+  "name": "db-mcp-tool",
+  "version": "1.0.0",
+  "description": "Database Explorer MCP Tool - PostgreSQL, MySQL ve Firestore veritabanları için yönetim aracı",
+  "license": "MIT",
+  "author": "wirdes (https://github.com/wirdes)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wirdes/db-mcp-tool"
+  },
+  "type": "module",
+  "bin": {
+    "db-mcp-tool": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "@types/pg": "^8.11.11",
+    "mysql2": "^3.13.0",
+    "pg": "^8.13.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "shx": "^0.3.4",
+    "typescript": "^5.7.3"
+  }
+}

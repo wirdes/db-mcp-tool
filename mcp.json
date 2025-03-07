@@ -1,0 +1,20 @@
+{
+  "name": "database-explorer",
+  "version": "1.0.0",
+  "description": "Database Explorer MCP Tool",
+  "command": ["node", "dist/index.js"],
+  "tools": [
+    "!pg",
+    "!mysql",
+    "!firestore",
+    "!tables",
+    "!triggers",
+    "!functions",
+    "!query",
+    "!export-db",
+    "!export-data"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
